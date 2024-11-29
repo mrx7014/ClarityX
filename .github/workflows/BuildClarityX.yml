@@ -2,7 +2,7 @@ name: Build and Release ClarityX
 
 on:
   workflow_dispatch:
-    inputs:
+   inputs:
       release_version:
         description: 'Release version (e.g., v1.0.0)'
         required: true
@@ -28,9 +28,11 @@ jobs:
       run: chmod +x gradlew
 
     - name: Build with Gradle
-      run: ./gradlew build
+      run: ./gradlew assembleDebug
 
-    - name: Upload APK to Release
+    - name: Upload ClarityX to Release
       uses: actions/upload-artifact@v3
       with:
-       name: ClarityX-${{ github.event.inputs.release_version }}.apk
+       name: ClarityX LSPosed App ${{ github.event.inputs.release_version }}
+       description: ClarityX is an LSPosed module that enhances mobile game Resolution and unlock Maximum FPS 
+       path: app/build/outputs/apk/debug/*.apk
