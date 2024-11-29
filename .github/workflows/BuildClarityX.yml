@@ -2,7 +2,7 @@ name: Build and Release ClarityX
 
 on:
   workflow_dispatch:
-   inputs:
+    inputs:
       release_version:
         description: 'Release version (e.g., v1.0.0)'
         required: true
@@ -28,16 +28,17 @@ jobs:
       run: chmod +x gradlew
 
     - name: Build with Gradle
-      run: ./gradlew assembleDebug
+      run: ./gradlew build
 
     - name: Create Release
       id: create_release
       uses: softprops/action-gh-release@v1
       with:
         tag_name: ${{ github.event.inputs.release_version }}
-        release_name: Release ClarityX LSPosed App ${{ github.event.inputs.release_version }}
-        path: app/build/outputs/apk/debug/*.apk
+        name: ClarityX LSPosed App ${{ github.event.inputs.release_version }}
         body: |
           - First release of ClarityX LSPosed App v${{ github.event.inputs.release_version }}
+        files: app/build/outputs/apk/debug/app-debug.apk
+        token: ${{ secrets.GITHUB_TOKEN }}
         draft: false
         prerelease: false
