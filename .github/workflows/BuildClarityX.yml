@@ -34,5 +34,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
        name: ClarityX LSPosed App ${{ github.event.inputs.release_version }}
-       description: ClarityX is an LSPosed module that enhances mobile game Resolution and unlock Maximum FPS 
        path: app/build/outputs/apk/debug/*.apk
