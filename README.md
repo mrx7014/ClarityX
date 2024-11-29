@@ -1,3 +1,5 @@
+![ClarityX](https://github.com/user-attachments/assets/9d98c26d-79e7-46c9-bfe8-c41758656a95)
+
 # **ClarityX** 🚀  
 
 ### **Revolutionize Your Gaming Experience** 🎮  
