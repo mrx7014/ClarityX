@@ -17,8 +17,8 @@ jobs:
     - name: Check out repository
       uses: actions/checkout@v4
 
-    - name: Install Required Packages
-      run: apt update;apt install sudo;sudo apt update;sudo apt install zip
+    #- name: Install Required Packages
+    #  run: apt update;apt install sudo;sudo apt update;sudo apt install zip
 
     - name: Create ClarityX Module
       run: sudo rm -rf README.md; zip -r ClarityX-${{ github.event.inputs.release_version }}.zip *
