@@ -1,0 +1,118 @@
+# begin common build properties
+ro.product.brand=oplus
+ro.product.device=OPD2404
+ro.product.manufacturer=oplus
+ro.product.model=OPD2404
+ro.product.name=OPD2404
+ro.product.product.brand=oplus
+ro.product.product.device=OPD2404
+ro.product.product.manufacturer=oplus
+ro.product.product.model=OPD2404
+ro.product.product.name=OPD2404
+ro.product.build.date=Fri Sep 27 19:37:52 KST 2024
+ro.product.build.date.utc=1727433472
+ro.product.build.fingerprint=oplus/ossi/ossi:14/UKQ1.231108.001/1726145855261:user/release-keys
+ro.product.build.id=UP1A.231005.007
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+ro.product.build.version.incremental=1726145855261
+ro.product.build.version.release=14
+ro.product.build.version.release_or_codename=14
+ro.product.build.version.sdk=34
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SM8650-AB
+ro.gpu.model=Adreno750
+ro.gpu=Adreno750
+# end common build properties
+
+# begin PRODUCT_BOOTIMAGE_PROPERTIES
+ro.product.bootimage.brand=oplus
+ro.product.bootimage.device=OPD2404
+ro.product.bootimage.manufacturer=oplus
+ro.product.bootimage.model=OPD2404
+ro.product.bootimage.name=OPD2404
+ro.bootimage.build.date=Fri Sep 27 19:37:52 KST 2024
+ro.bootimage.build.date.utc=1727433472
+ro.bootimage.build.fingerprint=oplus/ossi/ossi:14/UKQ1.231108.001/1726145855261:user/release-keys
+ro.bootimage.build.id=UP1A.231005.007
+ro.bootimage.build.tags=release-keys
+ro.bootimage.build.type=user
+ro.bootimage.build.version.incremental=1726145855261
+ro.bootimage.build.version.release=14
+ro.bootimage.build.version.release_or_codename=14
+ro.bootimage.build.version.sdk=34
+# end PRODUCT_BOOTIMAGE_PROPERTIES
+
+# begin common build properties
+ro.product.vendor.brand=oplus
+ro.product.vendor.device=OPD2404
+ro.product.vendor.manufacturer=oplus
+ro.product.vendor.model=OPD2404
+ro.product.vendor.name=OPD2404
+ro.vendor.build.date=Fri Sep 27 19:37:52 KST 2024
+ro.vendor.build.date.utc=1727433472
+ro.vendor.build.fingerprint=oplus/ossi/ossi:14/UKQ1.231108.001/1726145855261:user/release-keys
+ro.vendor.build.id=UP1A.231005.007
+ro.vendor.build.tags=release-keys
+ro.vendor.build.type=user
+ro.vendor.build.version.incremental=1726145855261
+ro.vendor.build.version.release=14
+ro.vendor.build.version.release_or_codename=14
+ro.vendor.build.version.sdk=34
+# end common build properties
+
+# begin common build properties
+ro.product.odm.brand=oplus
+ro.product.odm.device=OPD2404
+ro.product.odm.manufacturer=oplus
+ro.product.odm.model=OPD2404
+ro.product.odm.name=OPD2404
+ro.odm.build.date=Fri Sep 27 19:37:52 KST 2024
+ro.odm.build.date.utc=1727433472
+ro.odm.build.fingerprint=oplus/ossi/ossi:14/UKQ1.231108.001/1726145855261:user/release-keys
+ro.odm.build.id=UP1A.231005.007
+# end common build properties
+
+# begin common build properties
+ro.product.system.brand=oplus
+ro.product.system.device=OPD2404
+ro.product.system.manufacturer=oplus
+ro.product.system.model=OPD2404
+ro.product.system.name=OPD2404
+ro.system.build.date=Fri Sep 27 19:37:52 KST 2024
+ro.system.build.date.utc=1727433472
+ro.system.build.fingerprint=oplus/ossi/ossi:14/UKQ1.231108.001/1726145855261:user/release-keys
+ro.system.build.id=UP1A.231005.007
+ro.system.build.tags=release-keys
+ro.system.build.type=user
+# end common build properties
+
+# begin build properties
+ro.build.date=Fri Sep 27 19:37:52 KST 2024
+ro.build.date.utc=1727433472
+ro.build.fingerprint=oplus/ossi/ossi:14/UKQ1.231108.001/1726145855261:user/release-keys
+ro.build.id=UP1A.231005.007
+ro.build.display.id=UP1A.231005.007.1726145855261
+ro.build.type=user
+ro.build.user=android-build
+ro.build.host=SWDK6305
+ro.build.tags=release-keys
+ro.build.flavor=OPD2404-user
+ro.build.product=OPD2404
+ro.build.description=OPD2404-user 14 UP1A.231005.007 1726145855261 release-keys
+ro.build.version.incremental=1726145855261
+# end build properties
+
+# begin common build properties
+ro.product.system_ext.brand=oplus
+ro.product.system_ext.device=ossi
+ro.product.system_ext.manufacturer=oplus
+ro.product.system_ext.model=ossi
+ro.product.system_ext.name=ossi
+ro.system_ext.build.date=Fri Sep 27 19:37:52 KST 2024
+ro.system_ext.build.date.utc=1727433472
+ro.system_ext.build.fingerprint=oplus/ossi/ossi:14/UKQ1.231108.001/1726145855261:user/release-keys
+ro.system_ext.build.id=UP1A.231005.007
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+# end common build properties
