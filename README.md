@@ -29,11 +29,11 @@ Before installing **ClarityX**, ensure you meet the following requirements:
 
 ## **Installation Guide**  
 
-### **1️⃣ Download the AModule*  
+### ** 1️⃣ Download the AModule*  
 - Head over to the [Releases Section](https://github.com/mrx7014/ClarityX/releases) to download the latest **ClarityX Module**.  
 - Install it like any regular Module.  
 
-### **2️⃣  Enjoy Enhanced Gaming**  
+### ** 2️⃣ Enjoy Enhanced Gaming**  
 - Launch your games and enjoy improved visuals and performance with ClarityX!  
 
 ## **Support & Community**  
