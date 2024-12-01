@@ -5,19 +5,18 @@ import android.os.Build;
 import android.util.Log;
 
 import java.lang.reflect.Field;
-import java.security.KeyStore;
 import java.util.Arrays;
 
 import de.robv.android.xposed.IXposedHookLoadPackage;
-import de.robv.android.xposed.XC_MethodHook;
 import de.robv.android.xposed.XposedBridge;
-import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_LoadPackage;
 
 @SuppressLint("DiscouragedPrivateApi")
 @SuppressWarnings("ConstantConditions")
 public class ClarityX implements IXposedHookLoadPackage {
-  
+
+    private static final String TAG = "ClarityX";
+
     // Packages to Spoof as OnePlus Pad Pro
     private static final String[] packagesToChangeOP8P = {
         "com.netease.lztgglobal",
@@ -43,7 +42,6 @@ public class ClarityX implements IXposedHookLoadPackage {
 
     @Override
     public void handleLoadPackage(XC_LoadPackage.LoadPackageParam loadPackageParam) {
-
         String packageName = loadPackageParam.packageName;
 
         // OnePlus
@@ -51,8 +49,8 @@ public class ClarityX implements IXposedHookLoadPackage {
             propsToChangeOP8P();
             XposedBridge.log("Spoofed " + packageName + " as OnePlus Pad Pro");
         }
+    }
 
-    // OnePlus
     // Props to Spoof as OnePlus Pad Pro
     private static void propsToChangeOP8P() {
         setPropValue("MANUFACTURER", "OnePlus");
