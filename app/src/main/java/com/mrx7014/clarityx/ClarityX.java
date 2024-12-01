@@ -55,6 +55,11 @@ public class ClarityX implements IXposedHookLoadPackage {
     private static void propsToChangeOP8P() {
         setPropValue("MANUFACTURER", "OnePlus");
         setPropValue("MODEL", "OPD2404");
+        serPropValue("SOC.MANUFACTURER", "SM8650-AB");
+        setPropValue("GPU.MODEL", "Adreno750");
+        setPropValue("FINGERPRINT", "oplus/ossi/ossi:14/UKQ1.231108.001/1726145855261:user/release-keys");
+        setPropValue("ID", "UP1A.231005.007");
+        
     }
 
     private static void setPropValue(String key, Object value) {
