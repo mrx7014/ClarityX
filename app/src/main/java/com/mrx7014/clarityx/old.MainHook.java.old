@@ -15,7 +15,7 @@ public class MainHook implements IXposedHookLoadPackage {
         XposedBridge.log("ClarityX: Hooking into: " + lpparam.packageName);
 
         // ro.product.manufacturer
-        XposedHelpers.setStaticObjectField(Build.class, "MANUFACTURER", "OnePlus");
+        XposedHelpers.setStaticObjectField(Build.class, "MANUFACTURER", "oplus");
 
         // ro.product.brand
         XposedHelpers.setStaticObjectField(Build.class, "BRAND", "oplus");
